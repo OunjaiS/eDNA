@@ -1,0 +1,65 @@
+Analysis started: Mon Jul 28 16:05:37 2025
+
+
+WARNING: 192 data points excluded without a valid starting quantity (SQ)!
+Here is a sample of the data being excluded:
+
+"Well"	"Fluor"	"Sample"	"Cq"	"SQ"	"Target"
+"A01"	"FAM"	"NTC"	NA	NA	"SVC"
+"A02"	"FAM"	"NTC"	NA	NA	"SVC"
+"A03"	"FAM"	"NTC"	NA	NA	"SVC"
+"A04"	"FAM"	"NTC"	NA	NA	"SVC"
+"A05"	"FAM"	"NTC"	NA	NA	"SVC"
+"A06"	"FAM"	"NTC"	NA	NA	"SVC"
+
+
+Potential outliers have been detected. Please review the data exported as
+Potential-Outliers.csv, and determine if any data points need to be excluded
+or adjusted due to false positives or poorly normalized baselines.
+
+
+These standards not included in SVC standard curve regression for copy estimate calculations, because they detected below 50%: NA, 1
+
+
+These standards not included in BHC standard curve regression for copy estimate calculations, because they detected below 50%: NA, 1
+
+
+Data Summary:
+"Standards"	"Target"	"Reps"	"Detects"	"Cq.mean"	"Cq.sd"	"Copy.CV"	"Cq.CV"	"Rate"
+10000	"SVC"	96	96	26.5119561357292	0.119231498163943	0.0791588594481596	0.0827862980689024	1
+1000	"SVC"	96	96	29.6005972160417	0.138523421976704	0.0911182708575873	0.0962388473754222	1
+100	"SVC"	96	96	33.027619848125	0.173598875732598	0.121815760693998	0.120766457169594	1
+10	"SVC"	96	96	36.2168045264583	0.494263953591559	0.334257038931622	0.352900814855074	1
+5	"SVC"	96	59	38.1365570686441	0.851061455112213	0.563436134447802	0.645154940825571	0.614583333333333
+1	"SVC"	96	25	39.6446016752	2.57574810157517	0.646549815703318	4.81965941521682	0.260416666666667
+10000	"BHC"	96	96	26.6083575928125	0.109498672519522	0.0698173855365444	0.0760081331625534	1
+1000	"BHC"	96	96	29.9934619576042	0.128122371172618	0.081112825708183	0.0889830504687364	1
+100	"BHC"	96	96	33.0726846577083	0.172521835327253	0.114003073396059	0.120011812404119	1
+10	"BHC"	96	96	36.7163372585417	0.490022951847562	0.313092865412312	0.349693990096985	1
+5	"BHC"	96	59	39.1113975805085	0.825123644696758	0.521156537943637	0.622052235582414	0.614583333333333
+1	"BHC"	96	25	40.713603744	2.55720090599741	0.628254370152089	4.70593673478804	0.260416666666667
+
+
+For SVC, the lowest standard with 95% or greater detection is: 10 copies/reaction.
+
+
+
+For BHC, the lowest standard with 95% or greater detection is: 10 copies/reaction.
+
+Assay summary:
+
+R.squared: The R-squared value of linear regression of all standards Cq-values vs log10 of the starting quantities.
+Slope: The slope of the linear regression.
+Intercept: The y-intercept of the linear regression.
+
+Low.95: The lowest standard with at least 95% positive detection.
+LOD: The 95% limit of detection as determined by probit modeling.
+LOQ: The limit of quantification as determined by decay modeling, using the user-selected CV threshold of: 0.35
+
+rep2.LOD: The effective limit of detection if analyzing in 2 replicates.
+rep3.LOD: The effective limit of detection if analyzing in 3 replicates.
+rep4.LOD: The effective limit of detection if analyzing in 4 replicates.
+rep5.LOD: The effective limit of detection if analyzing in 5 replicates.
+rep8.LOD: The effective limit of detection if analyzing in 8 replicates.
+
+
